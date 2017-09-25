@@ -46,5 +46,6 @@
         <page name='MinimumPathSum(64)'/>
         <page name='ClimbingStairs(70)'/>
         <page name='MaximumProductSubarray(152)'/>
+        <page name='HouseRobber(198)'/>
     </pages>
 </playground>
