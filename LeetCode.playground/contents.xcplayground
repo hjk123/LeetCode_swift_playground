@@ -47,5 +47,6 @@
         <page name='ClimbingStairs(70)'/>
         <page name='MaximumProductSubarray(152)'/>
         <page name='HouseRobber(198)'/>
+        <page name='HouseRobberII(213)'/>
     </pages>
 </playground>
