@@ -48,5 +48,6 @@
         <page name='MaximumProductSubarray(152)'/>
         <page name='HouseRobber(198)'/>
         <page name='HouseRobberII(213)'/>
+        <page name='CoinChange(322)'/>
     </pages>
 </playground>
