@@ -49,5 +49,8 @@
         <page name='HouseRobber(198)'/>
         <page name='HouseRobberII(213)'/>
         <page name='CoinChange(322)'/>
+        <page name='BestTimetoBuyandSellStock(121)'/>
+        <page name='MedianofTwoSortedArrays(4)'/>
+        <page name='LongestPalindromicSubstring(5)'/>
     </pages>
 </playground>
