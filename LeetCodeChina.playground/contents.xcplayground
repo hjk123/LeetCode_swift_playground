@@ -5,5 +5,8 @@
         <page name='旋转数组'/>
         <page name='判断重复'/>
         <page name='只出现一次的数字'/>
+        <page name='两个数组的交集 II'/>
+        <page name='两数之和'/>
+        <page name='移动零'/>
     </pages>
 </playground>
