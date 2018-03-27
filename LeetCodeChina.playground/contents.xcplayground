@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='从排序数组中删除重复项'/>
+        <page name='旋转数组'/>
+        <page name='判断重复'/>
+        <page name='只出现一次的数字'/>
+    </pages>
+</playground>
