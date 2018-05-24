@@ -8,5 +8,8 @@
         <page name='两个数组的交集 II'/>
         <page name='两数之和'/>
         <page name='移动零'/>
+        <page name='反转字符串'/>
+        <page name='颠倒整数'/>
+        <page name='买卖股票的最佳时机'/>
     </pages>
 </playground>
