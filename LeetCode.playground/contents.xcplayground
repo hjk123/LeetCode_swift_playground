@@ -52,5 +52,6 @@
         <page name='BestTimetoBuyandSellStock(121)'/>
         <page name='MedianofTwoSortedArrays(4)'/>
         <page name='LongestPalindromicSubstring(5)'/>
+        <page name='Evaluate Reverse Polish Notation(150)'/>
     </pages>
 </playground>
