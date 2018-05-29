@@ -53,5 +53,7 @@
         <page name='MedianofTwoSortedArrays(4)'/>
         <page name='LongestPalindromicSubstring(5)'/>
         <page name='Evaluate Reverse Polish Notation(150)'/>
+        <page name='Longest Common Prefix'/>
+        <page name='Search Insert Position'/>
     </pages>
 </playground>
