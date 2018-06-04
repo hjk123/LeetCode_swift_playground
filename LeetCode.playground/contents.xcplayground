@@ -61,5 +61,9 @@
         <page name='Kth Largest Element in an Array'/>
         <page name='Merge k Sorted Lists'/>
         <page name='Binary Tree Level Order Traversal'/>
+        <page name=' Majority Element'/>
+        <page name='Binary Tree Right Side View'/>
+        <page name='Same Tree'/>
+        <page name='Path Sum'/>
     </pages>
 </playground>

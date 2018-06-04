@@ -22,8 +22,8 @@ class Solution {
         visited.append(root!.val)
         queue.append(root)
         while queue.count > 0 {
-            let node = queue.dropFirst()
-            //
+//            let node: TreeNode? = queue.first
+//            visited.append(node?.val)
             
         }
         return result
