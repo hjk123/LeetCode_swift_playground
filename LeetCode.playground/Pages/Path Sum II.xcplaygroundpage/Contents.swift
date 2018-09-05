@@ -14,11 +14,11 @@ public class TreeNode {
 }
  
 class Solution {
-    func hasPathSum(_ root: TreeNode?, _ sum: Int) -> Bool {
+    func pathSum(_ root: TreeNode?, _ sum: Int) -> [[Int]] {
         guard root != nil else {
             return false
         }
-        var nums = [Int].init()
+        var nums = [[Int]].init()
         pathSum(root, 0, &nums)
         if nums.contains(sum) {
             return true
