@@ -3,5 +3,10 @@
     <pages>
         <page name='Remove Nth Node From End of List'/>
         <page name='Reverse Linked List'/>
+        <page name='Merge Two Sorted List'/>
+        <page name='Linked List Cycle'/>
+        <page name='Implement Stack using Queues'/>
+        <page name='Insertion Sort List'/>
+        <page name='Sort List'/>
     </pages>
 </playground>
