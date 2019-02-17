@@ -61,5 +61,17 @@
         <page name='Kth Largest Element in an Array'/>
         <page name='Merge k Sorted Lists'/>
         <page name='Binary Tree Level Order Traversal'/>
+        <page name=' Majority Element'/>
+        <page name='Binary Tree Right Side View'/>
+        <page name='Same Tree'/>
+        <page name='Path Sum'/>
+        <page name='Path Sum II'/>
+        <page name='Balanced Binary Tree'/>
+        <page name='Convert Sorted Array to Binary Search Tree'/>
+        <page name='Binary Tree Paths'/>
+        <page name='Flatten Binary Tree to Linked List'/>
+        <page name='Unique Paths II'/>
+        <page name='Unique Binary Search Trees II'/>
+        <page name='Jump Game'/>
     </pages>
 </playground>
