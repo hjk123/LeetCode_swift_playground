@@ -16,5 +16,7 @@
         <page name='Balanced Binary Tree'/>
         <page name='DynamicArray'/>
         <page name='MergeTwoSortedArray'/>
+        <page name='Graph'/>
+        <page name='Sorted'/>
     </pages>
 </playground>
