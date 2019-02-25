@@ -11,9 +11,7 @@ class Sort{
         for i in 0 ..< tampArr.count {
             for j in i+1 ..< tampArr.count {
                 if tampArr[i] > tampArr[j] {
-                    let temp: Int = tampArr[i]
-                    tampArr[i] = tampArr[j]
-                    tampArr[j] = temp
+                    tampArr.swapAt(i, j)
                 }
             }
         }
@@ -51,9 +49,7 @@ class Sort{
                     minIndex = j
                 }
             }
-            let temp: Int = tempArr[minIndex]
-            tempArr[minIndex] = tempArr[i]
-            tempArr[i] = temp
+            tempArr.swapAt(minIndex, i)
         }
         return tempArr
     }
@@ -70,12 +66,15 @@ class Sort{
         let mid = (start + end)/2
         mergeHelper(arr: &arr, start: start, end: mid)
         mergeHelper(arr: &arr, start: mid + 1, end: end)
-        var i = start
+        merge(arr: &arr, s: start, mid: mid, e: end)
+    }
+    func merge(arr: inout [Int],s: Int,mid: Int,e: Int) -> Void {
+        var i = s
         var j = mid + 1
         var k = 0
-        var temp = [Int].init(repeating: 0, count: end-start+1)
-        while i <= mid && j <= end {
-            if arr[i] > arr[j] {
+        var temp = [Int].init(repeating: 0, count: e-s+1)
+        while i <= mid && j <= e {
+            if arr[i] <= arr[j] {
                 temp[k] = arr[i]
                 i+=1
             }
@@ -88,9 +87,9 @@ class Sort{
         }
         var tempStart = i;
         var tempEnd = mid;
-        if j <= end {
+        if j <= e {
             tempStart = j
-            tempEnd = end
+            tempEnd = e
         }
         while tempStart <= tempEnd {
             temp[k] = arr[tempStart]
@@ -102,9 +101,31 @@ class Sort{
         }
     }
     //快速排序
-//    func quickSort(arr: [Int]) -> [Int] {
-//        //
-//    }
+    func quickSort(arr: [Int]) -> [Int] {
+        var tempArr: [Int] = arr
+        quickHelper(arr: &tempArr, start: 0, end: arr.count - 1)
+        return tempArr
+    }
+    func quickHelper(arr: inout [Int], start: Int, end: Int) -> Void {
+        if start >= end {
+            return
+        }
+        let q = partition(arr: &arr, start: start, end: end)
+        quickHelper(arr: &arr, start: start, end: q-1)
+        quickHelper(arr: &arr, start: q+1, end: end)
+    }
+    func partition(arr: inout [Int], start: Int, end: Int) -> Int {
+        let pivot = arr[end]
+        var i: Int = start
+        for j in start...end-1 {
+            if arr[j] < pivot {
+                arr.swapAt(i, j)
+                i+=1
+            }
+        }
+        arr.swapAt(i, end)
+        return i
+    }
 }
 
 let instance: Sort = Sort.init()
@@ -121,6 +142,10 @@ var arr2 = instance.selectSort(arr: array)
 
 //插入排序
 var arr3 = instance.insertSort(arr: array)
+
+//快速排序
+var arr4 = instance.quickSort(arr: array)
+
 
 
 

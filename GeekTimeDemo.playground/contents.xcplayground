@@ -18,5 +18,6 @@
         <page name='MergeTwoSortedArray'/>
         <page name='Graph'/>
         <page name='Sorted'/>
+        <page name='Traverse'/>
     </pages>
 </playground>
