@@ -21,5 +21,6 @@
         <page name='Traverse'/>
         <page name='BinarySearchTree'/>
         <page name='Heap'/>
+        <page name='isBalanceTree'/>
     </pages>
 </playground>
