@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' executeOnSourceChanges='false'>
+<playground version='6.0' target-platform='ios'>
     <pages>
         <page name='Remove Nth Node From End of List'/>
         <page name='Reverse Linked List'/>
@@ -19,5 +19,7 @@
         <page name='Graph'/>
         <page name='Sorted'/>
         <page name='Traverse'/>
+        <page name='BinarySearchTree'/>
+        <page name='Heap'/>
     </pages>
 </playground>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Timeline
+   version = "3.0">
+   <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=1311&amp;EndingColumnNumber=5&amp;EndingLineNumber=64&amp;StartingColumnNumber=1&amp;StartingLineNumber=64&amp;Timestamp=623839532.149753"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=1333&amp;EndingColumnNumber=5&amp;EndingLineNumber=65&amp;StartingColumnNumber=1&amp;StartingLineNumber=65&amp;Timestamp=623839532.149895"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=1355&amp;EndingColumnNumber=5&amp;EndingLineNumber=66&amp;StartingColumnNumber=1&amp;StartingLineNumber=66&amp;Timestamp=623839532.150016"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=1376&amp;EndingColumnNumber=5&amp;EndingLineNumber=67&amp;StartingColumnNumber=1&amp;StartingLineNumber=67&amp;Timestamp=623839532.150112"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=1397&amp;EndingColumnNumber=5&amp;EndingLineNumber=68&amp;StartingColumnNumber=1&amp;StartingLineNumber=68&amp;Timestamp=623839532.150216"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=1418&amp;EndingColumnNumber=5&amp;EndingLineNumber=69&amp;StartingColumnNumber=1&amp;StartingLineNumber=69&amp;Timestamp=623839532.150328"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=1440&amp;EndingColumnNumber=5&amp;EndingLineNumber=70&amp;StartingColumnNumber=1&amp;StartingLineNumber=70&amp;Timestamp=623839532.150445"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=1462&amp;EndingColumnNumber=5&amp;EndingLineNumber=71&amp;StartingColumnNumber=1&amp;StartingLineNumber=71&amp;Timestamp=623839532.150544"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=3&amp;CharacterRangeLoc=1489&amp;EndingColumnNumber=8&amp;EndingLineNumber=73&amp;StartingColumnNumber=5&amp;StartingLineNumber=73&amp;Timestamp=623839532.150633"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=1512&amp;EndingColumnNumber=0&amp;EndingLineNumber=75&amp;StartingColumnNumber=1&amp;StartingLineNumber=74&amp;Timestamp=623839532.15072"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=1545&amp;EndingColumnNumber=0&amp;EndingLineNumber=77&amp;StartingColumnNumber=1&amp;StartingLineNumber=76&amp;Timestamp=623839532.150806"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huangjiangkun/LeetCode_swift_playground/GeekTimeDemo.playground/Pages/Heap.xcplaygroundpage#CharacterRangeLen=4&amp;CharacterRangeLoc=1578&amp;EndingColumnNumber=0&amp;EndingLineNumber=79&amp;StartingColumnNumber=1&amp;StartingLineNumber=78&amp;Timestamp=623839532.150892"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+   </TimelineItems>
+</Timeline>
