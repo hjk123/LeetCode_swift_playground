@@ -2,4 +2,7 @@
 
 import Foundation
 
-//用环形链表实现一个队列
+//基于环形链表 队列
+class CircleListQueue {
+    
+}
