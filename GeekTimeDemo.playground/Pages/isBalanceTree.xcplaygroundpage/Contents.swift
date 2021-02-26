@@ -85,6 +85,49 @@ class Solution {
         }
         return result
     }
+    
+    //输入一棵二叉树的根节点，求该树的深度。从根节点到叶节点依次经过的节点（含根、叶节点）形成树的一条路径，最长路径的长度为树的深度。
+    func maxDepth(_ root: TreeNode?) -> Int {
+        if root == nil {
+            return 0
+        }
+        let lHeight = maxDepth(root!.left)
+        let rHeight = maxDepth(root!.right)
+        
+        return (lHeight > rHeight ? lHeight : rHeight) + 1
+        
+        
+    }
+    
+    //给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先
+    func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
+        if root == nil {
+            return nil
+        }
+        if root!.val < p!.val && root!.val < q!.val {
+            return lowestCommonAncestor(root!.right, p, q)
+        }
+        if root!.val > p!.val && root!.val > q!.val {
+            return lowestCommonAncestor(root!.left, p, q)
+        } else {
+            return root
+        }
+    }
+    
+    func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
+        if p == nil && q == nil {
+            return true
+        }
+        if p == nil && q != nil {
+            return false
+        }
+        if p != nil && q == nil {
+            return false
+        }
+        if p!.val == q!.val {
+            return true
+        }
+        return isSameTree(p?.left, q?.left) && isSameTree(p?.right, q?.right)
 //    给定一个二叉树和一个目标和，判断该树中是否存在根节点到叶子节点的路径，这条路径上所有节点值相加等于目标和。
 //
 //    说明: 叶子节点是指没有子节点的节点。
