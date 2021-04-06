@@ -8,5 +8,7 @@
         <page name='bsearch'/>
         <page name='BST'/>
         <page name='heap'/>
+        <page name='List'/>
+        <page name='dictionary'/>
     </pages>
 </playground>
