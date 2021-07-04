@@ -4,6 +4,10 @@ import Foundation
 
 //基于链表队列
 class ListQueue {
+    var i: Int = 10
+    func getName(name: String) -> String {
+        return "huangjiangkun"
+    }
     
 }
 
